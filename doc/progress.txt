@@ -1,0 +1,12 @@
+Aight so currently I have completed:
+
+The skeleton of the frontend. All I need is to complete the style.css and iron out bugs on that
+end.
+
+The lexer. I must add things but the basic setup has been created using cython. (May replace with
+own C code at some point.)
+
+I need to implement the depth of inheritance and class variables.
+
+I must also alter the lexer so that it cuts up the token stream more i.e splitting brackets and
+the contents of those brackets.

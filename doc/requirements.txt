@@ -1,0 +1,16 @@
+flask templates.
+werkzueg, not recognised.
+"" --> ''
+
+CSS: No issues.
+
+cannot import name 'secure_filename' from werkzueg.
+
+Library conflict, stopped using flask-templates?
+
+"""
+Make it clear it is a raw link.
+"""
+"""
+Screenshot data.
+"""

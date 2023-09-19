@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Analyser</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <h1>Welcome to my analyser</h1>
+      <form id="analyse-button" action="/analysis" method="POST">
+	<input type="submit" value="Analyse?">
+      </form>
+      <h2>File 1</h2>
+      <h2>File 2</h2>
+        <form id="upload-file" action = "/fileuploader" method="POST" enctype = "multipart/form-data">
+            <input type = "file" name = "file" />
+            <input type = "submit"/>
+        </form>
+        <h2>Or</h2>
+        <form id = "upload-url" action = "/upload-url"  method="POST">
+            <input type = "text" name = "URL"/>
+            <input type = "submit"/>
+        </form>
+    </body>
+</html>
